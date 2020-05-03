@@ -4,3 +4,4 @@ jspm_packages
 
 db.js
 .serverless
+.expo/settings.json

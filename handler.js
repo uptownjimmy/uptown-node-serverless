@@ -62,7 +62,7 @@ module.exports.createItem = (event, context, callback) => {
       callback(null, {
         statusCode: 200,
         headers: {},
-        body: 'Item Created: ' + res,
+          body: JSON.stringify(res),
       });
     })
     .catch((e) => {
